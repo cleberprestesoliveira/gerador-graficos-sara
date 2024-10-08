@@ -1,7 +1,7 @@
 import * as commonJS from "./common.js"
 
 async function quantidadeUsuariosPorRede(){
-    const url = 'https://raw.githubcontent.com/guilhermeonrails/api/main/numero-usuario.json'
+    const url = 'https://raw.githubcontent.com/guilhermeonrails/api/main/numero-usuarios.json'
 const res = await fetch(url)
 const dados = await res.json()
 const nomeDasRedes = Object.keys(dados)
