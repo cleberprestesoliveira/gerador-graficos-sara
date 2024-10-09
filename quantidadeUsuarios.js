@@ -50,6 +50,6 @@ const laytout ={
 const grafico = document.createElement('div')
 grafico.className = 'grafico'
 document.getElementById(graficos-container).appendChild(grafico)
-ṕloty.newPlot(grafico, data, laytout)
+Ploty.newPlot(grafico, data, laytout)
 }
 quantidadeUsuariosPorRede()
