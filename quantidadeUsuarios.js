@@ -39,7 +39,7 @@ const laytout ={
     },
     yaxis:{
         tickfont: commonJs.tickConfig,
-        title{
+        title: {
             text: 'Bilhões de usuários ativos',
             font: {
                  color: commonJs.getCSS('--secondary color')
