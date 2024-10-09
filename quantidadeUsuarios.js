@@ -1,4 +1,4 @@
-import * as commonJS from "./common.js"
+import * as commonJs from "./common.js"
 
 async function quantidadeUsuariosPorRede(){
     const url = 'https://raw.githubcontent.com/guilhermeonrails/api/main/numero-usuarios.json'
@@ -12,7 +12,7 @@ const data = [
     y: quantidadeUsuarios,
     type: 'bar',
     marker:{
-        color:commonJS.getCSS('--primary-color')
+        color:commonJs.getCSS('--primary-color')
     }
     }
 ]
